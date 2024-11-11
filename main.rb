@@ -14,6 +14,6 @@ puts player1
 player1.lose_life
 puts player1.is_alive?
 puts player1
-player1.lose_life
+player1.update_score
 puts player1.is_alive?
 puts player1

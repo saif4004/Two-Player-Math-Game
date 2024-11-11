@@ -13,7 +13,9 @@ class Player
   def is_alive?
     @lives > 0
   end
-  
+  def update_score
+    @score += 1
+  end
   def to_s
     "Player: #{@name}, Lives: #{@lives}, Score: #{@score}"
   end
